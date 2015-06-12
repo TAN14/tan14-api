@@ -62,18 +62,18 @@
 | name           |频道名称          |
 | tags           |频道标签          |
 | pn             |产品id            |
-| channel_type   |频道类型 说明见 获取可用频道类型列表 |
+| channel_type   |频道类型 说明见 *获取可用频道类型列表* |
 |channel_type_id |频道类型 1:页面加速 2:下载加速|
 | remark         |频道备注           |
 | applied        |当applied为false时，代表频道有新的配置尚未下发|
 | online         |当online 为false时，代表当前频道下所有域名不可用，需要首先启用该频道|
-| domains        |频道下的域，说明见 域名管理 |
-| backends       |频道下的源站，说明见 源站管理 |
-| mcbackends     |频道下的MC源站，说明见 MC源站管理 |
-| security       |频道的安全设置，说明见 频道黑白名单/防盗链管理 |
-|custom_backendpath|频道的自定义PATH，说明见 自定义配置文件 |
-|custom_back_source|频道的自定义回源，说明见 自定义配置文件 |
-|custom_conf     |频道的自定义配置，说明见 自定义配置文件 |
+| domains        |频道下的域，说明见 *域名管理* |
+| backends       |频道下的源站，说明见 *源站管理* |
+| mcbackends     |频道下的MC源站，说明见 *MC源站管理* |
+| security       |频道的安全设置，说明见 *频道黑白名单/防盗链管理* |
+|custom_backendpath|频道的自定义PATH，说明见 *自定义配置文件* |
+|custom_back_source|频道的自定义回源，说明见 *自定义配置文件* |
+|custom_conf     |频道的自定义配置，说明见 *自定义配置文件* |
 | created        | 频道的创建时间     |
 
 
